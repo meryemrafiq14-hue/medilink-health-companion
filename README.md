@@ -22,9 +22,9 @@ MediLink is an AI-powered medical assistant built during the **UIUC Hackathon 20
 
 ---
 
-## 🔗 Prototype & Slides
-- **Prototype (Lovable)**: https://healix-connect-pro.lovable.app/
-- **Presentation (Gamma)**: https://gamma.app/docs/MediLink-Health-Companion-zc9596oz44h4p0u
+## 🎥 Demo & Prototype
+- **Live Prototype**: https://healix-connect-pro.lovable.app/
+- **Presentation Deck**: https://gamma.app/docs/MediLink-Health-Companion-zc9596oz44h4p0u
 
 ---
 
