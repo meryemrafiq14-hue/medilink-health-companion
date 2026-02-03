@@ -28,6 +28,13 @@ MediLink is an AI-powered medical assistant built during the **UIUC Hackathon 20
 
 ---
 
+## 🗂️ Project Structure
+- `frontend/` React + TypeScript UI components
+- `backend/` FastAPI service and API client
+
+
+---
+
 ## 🚀 Getting Started (Installation & Setup)
 
 Follow these steps to get the project running locally:
@@ -38,21 +45,28 @@ git clone https://github.com/meryemrafiq14-hue/medilink-health-companion.git
 cd medilink-health-companion
 
 # 2. Install frontend dependencies
+cd frontend
 npm install
+cd ..
 
 # 3. Backend setup (Python)
+cd backend
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+cd ..
 
 # 4. Environment setup
-# Create a .env file in the root directory and add your key:
+# Create a .env file in the backend directory and add your key:
 # KEYWORDS_API_KEY=your_keywords_ai_api_key_here
 
 # 5. Start the backend (new terminal tab recommended)
+cd backend
 uvicorn main:app --reload
+cd ..
 
 # 6. Start the frontend
+cd frontend
 npm run dev
 ```
 
